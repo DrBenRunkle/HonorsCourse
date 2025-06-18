@@ -1,0 +1,660 @@
+@charset "UTF-8";
+/* CSS Document */
+img {
+    max-width: 100%;
+    height: auto;
+}
+.social-media-prefooter .col-xs-3 {
+    width: 20% !important;
+}
+.tv-icon {
+	margin-left:-30px;
+	margin-top: 0;
+	width: 115%;
+	max-width: 115%;
+}
+.apply-intro {
+	position: absolute;
+	width: 300px;
+	text-align: center;
+	right: 30px;
+}
+#main-container p.apply-intro {
+	font-size: 20px;	
+}
+.apply-chart .col-xs-6:first-child {
+	border-right: dashed 2px #cccccc;
+	min-height: 360px;
+}
+.hidden-sm.hidden-md.hidden-lg .card-group .card .card-body .row .col-xs-6 {
+	text-align: center;
+}
+.hidden-sm.hidden-md.hidden-lg .card-group .card .card-body .row .col-xs-6:first-child {
+	border-right: dashed 2px #cccccc;
+}
+.hidden-sm.hidden-md.hidden-lg .card-group .card .card-body .row .col-xs-6 h3 {
+	font-size: 20px;
+}
+.apply-chart {
+	min-height: 400px;
+}
+.apply-gray-box {
+	position: absolute;
+	top: 140px;
+	right: 0;
+}
+.apply-gray-box.left {
+	right: -45px;
+}
+.apply-gray-box.left img {
+	width: 20%;
+	float: left;
+}
+.apply-gray-box.right img {
+	width: 20%;
+	position: absolute;
+	right: 25px;
+	top: 0;
+}
+#main-container .apply-gray-box p {
+	font-size: 20px;
+}
+.apply-gray-box.left p {
+	background-color: #e6e6e6;
+	padding: 8px 20px 10px 100px;
+	border-radius: 5px;
+	width: 80%;
+	margin: 13px 0;
+}
+.apply-gray-box.right p {
+	background-color: #e6e6e6;
+	padding: 8px 65px 10px 20px;
+	border-radius: 5px;
+	width: 85%;
+	margin: 13px 0;
+}
+.apply-box-3 .fa {
+	color: #000;
+	font-size: 40px;
+}
+.apply-box-3.left .fa {
+	float: left;
+	margin-right: 20px;
+}
+.apply-box-3.right .fa {
+	float: right;
+	margin-left: 20px;
+}
+.apply-box-3.left {
+	position: absolute;
+	top: 300px;
+	background: #f2f2f2;
+    border-radius: 5px;
+    padding: 10px;
+}
+.apply-box-3.right {
+	position: absolute;
+	top: 300px;
+	right: 40px;
+	background: #f2f2f2;
+    border-radius: 5px;
+    padding: 10px;
+}
+.apply-green-box {
+	background-color: #9aab64;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    font-size: 15px;
+    width: 40%;
+}
+.left {
+	position: absolute;
+    right: 40px;
+}
+.right {
+	position: absolute;
+    left: 40px;
+}
+.arrow-left{
+	position: absolute;
+	right: 115px;
+	top: 83px;
+	width: 10%;
+}
+.arrow-right{
+	position: absolute;
+	left: 115px;
+	top: 83px;
+	width: 10%;
+}
+.arrow-left-2{
+	position: absolute;
+	right: 115px;
+	top: 229px;
+	width: 10%;
+}
+.arrow-right-2{
+	position: absolute;
+	top: 185px;
+	width: 15%;
+	right: -42px;
+}
+.dean-faculty-fellows {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.dean-faculty-fellows img {
+	padding: 10px 20px;
+}
+.dff-content {
+	text-align: center;
+}
+.btn-red {
+    background-color: #9d2235!important;
+    border-color: #831423!important;
+}
+.modal-dialog {
+    width: 60%!important;
+}
+.modal-content {
+	background-color: #222222;
+    position: relative;
+    border: 1px solid #999;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    outline: 0;
+    -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+    background-clip: padding-box;
+}
+.modal-header {
+	border-bottom: none;
+}
+h3.modal-title {
+	color: #fff;
+}
+.modal-body h3, .modal-body h4, .modal-body h5 {
+	color: #fff;
+}
+.modal-body p {
+	color: #fff;
+}
+.modal-header button {
+    float: right;
+    z-index: 3;
+    position: relative;
+}
+.modal-body a {
+	color: #fff;
+}
+#main-container .modal-body  p, #main-container .modal-body li {
+    font-size: 14px;
+}
+.iframe-container {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+}
+/* 16x9 Aspect Ratio */
+.iframe-container {
+  padding-bottom: 56.25%;
+ width: 100%;
+}
+.iframe-container iframe {
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+/* Homepage Slideshow */
+.nivo-caption h3 {
+	background-color:rgba(147, 166, 81,.9);
+}
+/* Social Media*/
+ul.list-unstyled.social-media-prefooter {
+    margin-top: 50px;
+    font-size: 200%;
+}
+/*top nav*/
+#mainnav:hover ul {
+  min-height: 360px;
+}
+/*honors tv*/
+.tv-row  {
+	margin-left:0 !important;
+	margin-right: 0 !important;
+	background-color: #000;
+}
+.tv-row img {
+	display: block;
+	height: auto;
+	max-width: 100%;
+	width: 100%;
+	-webkit-transition: all 300ms;
+	-moz-transition: all 300ms;
+	transition: all 300ms;
+	max-width: 100%;
+}
+.tv-row .imagecontainer:hover img {
+	-webkit-transform: scale(1.4);
+	-moz-transform: scale(1.4);
+	transform: scale(1.4);
+}
+.tv-row .imagecontainer {
+	overflow: hidden;
+	position: relative;
+}
+.tv-row .imagecontainer:hover .contentcontainer {
+	opacity: 1;
+}
+.tv-row .contentcontainer {
+    color: #fff;
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    padding: 20px 40px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+	-webkit-transition: all 300ms ease-out;
+	-moz-transition: all 300ms ease-out;
+	transition: all 300ms ease-out;
+	-webkit-transition: all 300ms;
+	-moz-transition: all 300ms;
+	transition: all 300ms;
+	-webkit-transition-delay: 100ms;
+	-moz-transition-delay: 100ms;
+	transition-delay: 100ms;
+}
+.tv-row .contentcontainer.blue a, .tv-row .contentcontainer.green a, .tv-row .contentcontainer.red a, .tv-row .contentcontainer.dark-gray a, .tv-row .contentcontainer.tan a, .tv-row .contentcontainer.gold a {
+	color: #fff;
+}
+.tv-row .contentcontainer.light-gray a, .tv-row .contentcontainer.gray a {
+	color: #424242;
+}
+.tv-row .contentcontainer.blue h2, .tv-row .contentcontainer.green h2, .tv-row .contentcontainer.red h2, .tv-row .contentcontainer.dark-gray h2, .tv-row .contentcontainer.tan h2, .tv-row .contentcontainer.gold h2, .tv-row .contentcontainer.blue h3, .tv-row .contentcontainer.green h3, .tv-row .contentcontainer.red h3, .tv-row .contentcontainer.dark-gray h3, .tv-row .contentcontainer.tan h3, .tv-row .contentcontainer.gold h3 {
+	color: #fff;
+}
+.tv-row .contentcontainer.blue {
+    background-color: #6D80A6;
+	color: #fff;
+}
+.tv-row .contentcontainer.green {
+    background-color: #93A651;
+	color: #fff;
+}
+.tv-row .contentcontainer.tan {
+    background-color: #D6D0A5;
+	color: #fff;
+}
+.tv-row .contentcontainer.gold {
+    background-color: #D9BE6C;
+	color: #fff;
+}
+.tv-row .contentcontainer.red {
+    background-color: #9d2235;
+	color: #fff;
+}
+.tv-row .contentcontainer.light-gray {
+    background-color: #f2f2f4;
+	color: #424242;
+}
+.tv-row .contentcontainer.gray {
+    background-color: #c5c6cc;
+	color: #424242;
+}
+.tv-row .contentcontainer.dark-gray {
+    background-color: #424242;
+}
+.tv-row .col-xs-6.col-md-3 {
+	padding-left:0 !important;
+	padding-right: 0 !important;
+}
+.tv-bottom-row {
+	margin-bottom:-15px;
+}
+.tv-row .play {
+	font-size: 1.5em; 
+	margin-top: 20px; 
+	font-weight: 800;
+}
+.tv-row .play a {
+	text-decoration: none;
+}
+/*Callouts*/
+.callOut {
+	color:#fff;
+	min-height: 220px;
+	border-radius: 10px;
+}
+a.calloutAnchor , a.calloutAnchor:hover {
+	color:#fff;
+	text-decoration: none;
+}
+.callOut h4 {color:white; font-size:36px;}
+.callOut i {color:#fff;font-size:36px;}
+i.giftBox, i.fa-graduation-cap, i.fa-arrows {position:absolute;bottom: 30px;right:40px;font-size:80px;}
+.red-2 {
+    background-color: #9D2235 !important;
+    background-image: url("https://honorscollege.uark.edu/_resources/images/campaign-arkansas.png") !important;
+    background-size: 60% !important;
+    background-repeat: no-repeat !important;
+    background-position: right bottom !important;
+}
+.green {
+	background-color: #A2B469;
+}
+.red-2 {
+    background-color: #9D2235 !important;
+    background-image: url("*** Broken Link ***") !important;
+    background-size: 60% !important;
+    background-repeat: no-repeat !important;
+    background-position: right bottom !important;
+}
+.blue {
+	background-color: #8093b4;
+}
+.lightgrey, .lightgray {
+	background-color: #F2F2F4;
+}
+
+.grey, .gray {
+	background-color: #c5c6cc;
+}
+
+.darkgrey {
+	background-color: #424242;
+}
+.tan {
+	background-color: #D9BE6C;
+}
+.red {
+	background-color: #9D2235;
+}
+.greenFont {
+	color: #A2B469;
+}
+
+.blueFont {
+	color: #8093b4;
+}
+.timelineLightbulb {position:absolute;bottom:10px;right:20px;}
+.card-primary {
+	border-color: #9D2235;
+}
+.card-primary>.card-header {
+	color: #fff;
+	background-color: #9D2235;
+	border-color: #9D2235;
+	padding: 20px;
+	font-size: 32px;
+    font-weight: 600;
+    line-height: 1.4;
+}
+.list-majors {margin-bottom: 10px;}
+.major-uppercase {  text-transform: uppercase; font-size: 14px !important; margin-top:0 !important; }
+.card-group {margin:20px 0;}
+
+/* Timeline */
+.timeLine h3 {font-size:16px;font-weight:bold;text-transform:uppercase;}
+.timeLine .card {min-height:initial;}
+#main-container .timeLine p {font-size:14px;text-align: left;
+}
+.timeLine .red p,.timeLine .tan p,.timeLine .blue p,.timeLine .green p,.timeLine .darkgrey p,.timeLine .red h3,.timeLine .tan h3,.timeLine .blue h3,.timeLine .green h3,.timeLine .darkgrey h3, .timeLine .darkgrey li {	color:white;
+}
+.timeLine .darkgrey a {color:#cccccc;}
+.timeLine .card-default>.card-header {background-color:initial;}
+.congrats {font-size:20px;font-weight:400;padding-top: 0px;display: block;}
+
+
+
+
+
+@media (min-width: 1200px) {
+.modal-dialog {
+    width: 70%!important;
+}
+.medal {
+		background-image: url("*** Broken Link ***");
+		position:absolute;
+		top:0;
+		right:10px;
+		width:296px;
+		height:481px;
+		z-index:8;
+		background-repeat:no-repeat;
+		background-size:contain;
+		background-position:center;
+	}
+	.nivo-caption {
+	/* background-color:transparent; */
+	-moz-opacity: 0.8;
+	filter:alpha(opacity=8);
+}
+
+.nivo-caption  {
+	font-size: 28px;
+	width:initial;
+	min-width:75%;
+}
+
+.nivo-caption p {
+	background-color:rgba(0,0,0,.7);
+	font-size: 18px;
+	display:block;
+}
+
+/*Callouts*/
+.callOut {
+	color:#fff;
+	min-height: 220px;
+	border-radius: 10px;
+}
+.callOut a, .callOut a:hover {
+	color:#fff;
+	text-decoration: none;
+	font-size: 1.2em;
+}
+	.callOut h4 {color:white; font-size:36px;}
+i.giftBox, i.fa-graduation-cap, i.fa-arrows, span.giftBox  {position:absolute;bottom: 30px;right:40px;font-size:80px;}
+.APSummer p {font-size: 16px !important;margin-bottom: 6px;}
+/*TimeLine*/
+.timeLine .card {min-height:600px;}
+.congrats {font-size:20px;font-weight:400;padding-top: 30px;display: block;}
+	#mainnav ul {
+    width: 134px;
+}
+.tv-row .contentcontainer {
+	padding: 20px 40px;
+}
+.tv-row	h2 {
+		font-size: 30px;
+	}
+.tv-row .contentcontainer p {
+	font-size: 16px;
+}
+}
+
+@media (min-width: 992px) and (max-width: 1400px){
+.tv-row .contentcontainer {
+	padding: 10px;
+}
+.tv-row	h2 {
+		font-size: 20px;
+	}
+.tv-row .contentcontainer p {
+	font-size: 14px!important;
+}
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+	#main-container p.apply-intro {
+	font-size: 18px;	
+}
+.apply-intro {
+    right: 0;
+}
+	.apply-green-box {
+    width: 60%;
+}
+	.modal-dialog {
+    width: 80%!important;
+}
+	#mainnav ul {
+    width: 103px;
+	}
+.medal {
+		background-image: url("*** Broken Link ***");
+		position:absolute;
+		top:0;
+		right:10px;
+		width:266px;
+		height:433px;
+		z-index:8;
+		background-repeat:no-repeat;
+		background-size:contain;
+		background-position:center;
+	}
+	/* callOut */
+	
+	.callOut {
+		min-height: 180px;
+		border-radius: 10px;
+		font-size: 30%;
+	}
+
+.callOut a, .callOut a:hover {
+	color:#fff;
+	text-decoration: none;
+	font-size: 1.2em;
+}
+.callOut h4 {color:white; font-size:28px;}
+i.giftBox, i.fa-graduation-cap, i.fa-arrows  {position:absolute;bottom: 30px;right:40px;font-size:60px;}
+.APSummer p {font-size: 14px !important;margin-bottom: 6px;}
+.congrats {font-size:16px;font-weight:400;padding-top: 30px;display: block;}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+.tv-icon {
+	margin-left:0px;
+	margin-top: -45px;
+	width: 100%;
+	max-width: 100%;
+}
+		#main-container p.apply-intro {
+	font-size: 18px;	
+}
+.apply-intro {
+    right: 0;
+}
+.arrow-right-2 {
+    right: -30px;
+}
+#main-container .apply-gray-box p {
+    font-size: 15px;
+}
+	.modal-dialog {
+    width: 90%!important;
+}
+.medal {
+		background-image: url("*** Broken Link ***");
+		position:absolute;
+		top:0;
+		right:10px;
+		width:207px;
+		height:337px;
+		z-index:8;
+		background-repeat:no-repeat;
+		background-size:contain;
+		background-position:center;
+	}
+	
+	
+	
+	/* callOut */
+	
+	.callOut {
+		min-height: 137px;
+		border-radius: 10px;
+		font-size: 40%;
+	}
+
+.callOut a, .callOut a:hover {
+	color:#fff;
+	text-decoration: none;
+	
+}
+.callOut h4 {color:white; font-size:20px;}
+
+i.giftBox, i.fa-graduation-cap, i.fa-arrows  {position:absolute;bottom: 30px;right:40px;font-size:40px;}
+.APSummer p {font-size: 10px !important;margin-bottom: 3px;}
+/*TimeLine*/
+.timeLine .card {min-height:375px;}
+.congrats {font-size:17px;font-weight:400;padding-top: 30px;display: block;}
+#mainnav ul {
+    width: 70px;
+}
+.tv-row .contentcontainer {
+	padding: 20px 40px;
+}
+.tv-row	h2 {
+		font-size: 30px!important;
+	}
+.tv-row .contentcontainer p {
+	font-size: 16px!important;
+}
+}
+
+@media (max-width: 767px) {
+.tv-icon {
+	margin-left:0px;
+	margin-top: 0px;
+	width: 100%;
+	max-width: 100%;
+}
+		#main-container p.apply-intro {
+	font-size: 18px;	
+}
+.apply-intro {
+    right: 0;
+}
+	.modal-dialog {
+    width: 100%!important;
+}
+	.tv-row .contentcontainer {
+	padding: 10px 10px;
+}
+.tv-row	h2 {
+		font-size: 30px;
+	}
+.tv-row .contentcontainer p {
+	font-size: 15px!important;
+}
+	
+}
+
+@media (max-width: 480px) {
+	.tv-row .contentcontainer {
+	padding: 10px;
+}
+.tv-row	h2 {
+	font-size: 20px;
+	margin-top: 0px;
+	}
+.tv-row .contentcontainer p {
+	font-size: 12px!important;
+	line-height: 16px;
+}
+.tv-row .play {
+    font-size: 1em;
+    margin-top: 5px;
+}
+.tv-row .description {
+	display: none;
+}
+}
